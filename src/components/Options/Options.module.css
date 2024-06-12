@@ -1,0 +1,42 @@
+.btnCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  border-top: 1px solid #ffffff;
+  background: #92d2eb;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f57575),
+    to(#92d2eb)
+  );
+  background: -moz-linear-gradient(top, #f57575, #92d2eb);
+  padding: 8.5px 17px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+button:hover {
+  border-top-color: #84b1cf;
+  background: #84b1cf;
+  color: #000000;
+}
+button:active {
+  border-top-color: #f5b6b6;
+  background: #f5b6b6;
+}

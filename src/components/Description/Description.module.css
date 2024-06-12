@@ -1,0 +1,20 @@
+.descTitle {
+  font-size: 72px;
+  margin: 10px auto;
+  text-align: center;
+  color: transparent;
+  background-image: url("https://sun9-77.userapi.com/impf/c639921/v639921041/5a93/dmgBB4Sc-0c.jpg?size=604x561&quality=96&sign=e7409737e4ff88c5c9ab19ed3c462557&type=album");
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.descText {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  margin: 10px auto;
+  text-align: center;
+}
